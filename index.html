@@ -1,0 +1,226 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Bài tập JS buổi 7, 8</title>
+
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3" crossorigin="anonymous">
+    <link rel="stylesheet" href="./css/style.css">
+</head>
+
+<body>
+    <div class="container">
+        <div class="content">
+            <input type="number" name="" id="txtN" class="form-control mb-4 ms-2" placeholder="Nhập n">
+            <button class="btn btn-primary" id="btnArr">Thêm số</button>
+            <p id="arr" class="mb-4">👉</p>
+            <div class="accordion accordion-flush" id="accordionFlushExample">
+                <div class="accordion-item">
+                    <h2 class="accordion-header" id="flush-headingOne">
+                        <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
+                            data-bs-target="#flush-collapseOne" aria-expanded="false" aria-controls="flush-collapseOne">
+                            <span>1</span> Tổng số dương
+                        </button>
+                    </h2>
+                    <div id="flush-collapseOne" class="accordion-collapse collapse" aria-labelledby="flush-headingOne"
+                        data-bs-parent="#accordionFlushExample">
+                        <div class="accordion-body">
+                            <div class="homework-detail mb-4">
+                                💡<span>Gợi ý</span>: Làm tương tự demo đã học trên lớp
+                            </div>
+                            <button class="btn btn-primary mb-4 ms-2" id="btnBaiTap1">Xử lý</button>
+                            <p id="result1">👉</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="accordion-item">
+                    <h2 class="accordion-header" id="flush-headingTwo">
+                        <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
+                            data-bs-target="#flush-collapseTwo" aria-expanded="false" aria-controls="flush-collapseTwo">
+                            <span>2</span> Đếm số dương
+                        </button>
+                    </h2>
+                    <div id="flush-collapseTwo" class="accordion-collapse collapse" aria-labelledby="flush-headingTwo"
+                        data-bs-parent="#accordionFlushExample">
+                        <div class="accordion-body">
+                            <div class="homework-detail mb-4">
+                                💡<span>Gợi ý</span>: Làm tương tự demo đã học trên lớp
+                            </div>
+                            <button class="btn btn-primary mb-4 ms-2" id="btnBaiTap2">Xử lý</button>
+                            <p id="result2">👉</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="accordion-item">
+                    <h2 class="accordion-header" id="flush-headingThree">
+                        <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
+                            data-bs-target="#flush-collapseThree" aria-expanded="false"
+                            aria-controls="flush-collapseThree">
+                            <span>3</span> Tìm số nhỏ nhất
+                        </button>
+                    </h2>
+                    <div id="flush-collapseThree" class="accordion-collapse collapse"
+                        aria-labelledby="flush-headingThree" data-bs-parent="#accordionFlushExample">
+                        <div class="accordion-body">
+                            <div class="homework-detail mb-4">
+                                💡<span>Gợi ý</span>: Làm tương tự demo đã học trên lớp
+                            </div>
+                            <button class="btn btn-primary mb-4 ms-2" id="btnBaiTap3">Xử lý</button>
+                            <p id="result3">👉</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="accordion-item">
+                    <h2 class="accordion-header" id="flush-headingFour">
+                        <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
+                            data-bs-target="#flush-collapseFour" aria-expanded="false"
+                            aria-controls="flush-collapseFour">
+                            <span>4</span> Tìm số dương nhỏ nhất
+                        </button>
+                    </h2>
+                    <div id="flush-collapseFour" class="accordion-collapse collapse" aria-labelledby="flush-headingFour"
+                        data-bs-parent="#accordionFlushExample">
+                        <div class="accordion-body">
+                            <div class="homework-detail mb-4">
+                                💡<span>Gợi ý</span>: Làm tương tự demo đã học trên lớp
+                            </div>
+                            <button class="btn btn-primary mb-4 ms-2" id="btnBaiTap4">Xử lý</button>
+                            <p id="result4">👉</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="accordion-item">
+                    <h2 class="accordion-header" id="flush-headingFive">
+                        <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
+                            data-bs-target="#flush-collapseFive" aria-expanded="false"
+                            aria-controls="flush-collapseFive">
+                            <span>5</span> Tìm số chẵn cuối cùng
+                        </button>
+                    </h2>
+                    <div id="flush-collapseFive" class="accordion-collapse collapse" aria-labelledby="flush-headingFive"
+                        data-bs-parent="#accordionFlushExample">
+                        <div class="accordion-body">
+                            <div class="homework-detail mb-4">
+                                💡<span>Gợi ý</span>: Làm tương tự demo đã học trên lớp
+                            </div>
+                            <button class="btn btn-primary mb-4 ms-2" id="btnBaiTap5">Xử lý</button>
+                            <p id="result5">👉</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="accordion-item">
+                    <h2 class="accordion-header" id="flush-headingSix">
+                        <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
+                            data-bs-target="#flush-collapseSix" aria-expanded="false" aria-controls="flush-collapseSix">
+                            <span>6</span> Đổi chỗ 2 vị trí trong mảng
+                        </button>
+                    </h2>
+                    <div id="flush-collapseSix" class="accordion-collapse collapse" aria-labelledby="flush-headingSix"
+                        data-bs-parent="#accordionFlushExample">
+                        <div class="accordion-body">
+                            <div class="homework-detail mb-4">
+                                💡<span>Gợi ý</span>: Làm tương tự demo đã học trên lớp
+                            </div>
+                            <input type="number" class="form-control mb-4 ms-2" id="txtViTri1"
+                                placeholder="Nhập vị trí 1">
+                            <input type="number" class="form-control" id="txtViTri2" placeholder="Nhập vị trí 2">
+                            <button class="btn btn-primary mb-4 ms-2" id="btnBaiTap6">Xử lý</button>
+                            <p id="result6">👉</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="accordion-item">
+                    <h2 class="accordion-header" id="flush-headingSeven">
+                        <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
+                            data-bs-target="#flush-collapseSeven" aria-expanded="false"
+                            aria-controls="flush-collapseSeven">
+                            <span>7</span> Sắp xếp mảng theo thứ tự tăng dần
+                        </button>
+                    </h2>
+                    <div id="flush-collapseSeven" class="accordion-collapse collapse"
+                        aria-labelledby="flush-headingSeven" data-bs-parent="#accordionFlushExample">
+                        <div class="accordion-body">
+                            <div class="homework-detail mb-4">
+                                💡<span>Gợi ý</span>: Làm tương tự demo đã học trên lớp
+                            </div>
+                            <button class="btn btn-primary mb-4 ms-2" id="btnBaiTap7">Xử lý</button>
+                            <p id="result7">👉</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="accordion-item">
+                    <h2 class="accordion-header" id="flush-headingEight">
+                        <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
+                            data-bs-target="#flush-collapseEight" aria-expanded="false"
+                            aria-controls="flush-collapseEight">
+                            <span>8</span> Tìm số nguyên tố đầu tiên trong mảng
+                        </button>
+                    </h2>
+                    <div id="flush-collapseEight" class="accordion-collapse collapse"
+                        aria-labelledby="flush-headingEight" data-bs-parent="#accordionFlushExample">
+                        <div class="accordion-body">
+                            <div class="homework-detail mb-4">
+                                💡<span>Gợi ý</span>: Làm tương tự demo đã học trên lớp
+                            </div>
+                            <button class="btn btn-primary mb-4 ms-2" id="btnBaiTap8">Xử lý</button>
+                            <p id="result8">👉</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="accordion-item">
+                    <h2 class="accordion-header" id="flush-headingNine">
+                        <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
+                            data-bs-target="#flush-collapseNine" aria-expanded="false"
+                            aria-controls="flush-collapseNine">
+                            <span>9</span> Đếm số nguyên trong mảng có chứa số thực
+                        </button>
+                    </h2>
+                    <div id="flush-collapseNine" class="accordion-collapse collapse" aria-labelledby="flush-headingNine"
+                        data-bs-parent="#accordionFlushExample">
+                        <div class="accordion-body">
+                            <div class="homework-detail mb-4">
+                                💡<span>Gợi ý</span>: Làm tương tự demo đã học trên lớp
+                            </div>
+                            <input type="text" name="" id="txtN9" class="form-control mb-4 ms-2" placeholder="Nhập n">
+                            <button class="btn btn-primary" id="btnArr9">Thêm số</button>
+                            <p id="arr9" class="mb-4">👉</p>
+                            <button class="btn btn-primary mb-4 ms-2" id="btnBaiTap9">Xử lý</button>
+                            <p id="result9">👉</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="accordion-item">
+                    <h2 class="accordion-header" id="flush-headingTen">
+                        <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
+                            data-bs-target="#flush-collapseTen" aria-expanded="false"
+                            aria-controls="flush-collapseTen">
+                            <span>10</span> So sánh số lượng số dương và số âm
+                        </button>
+                    </h2>
+                    <div id="flush-collapseTen" class="accordion-collapse collapse"
+                        aria-labelledby="flush-headingTen" data-bs-parent="#accordionFlushExample">
+                        <div class="accordion-body">
+                            <div class="homework-detail mb-4">
+                                💡<span>Gợi ý</span>: Làm tương tự demo đã học trên lớp
+                            </div>
+                            <button class="btn btn-primary mb-4 ms-2" id="btnBaiTap10">Xử lý</button>
+                            <p id="result10">👉</p>
+                        </div>
+                    </div>
+                </div>
+
+            </div>
+        </div>
+    </div>
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-ka7Sk0Gln4gmtz2MlQnikT1wXgYsOg+OMhuP+IlRH9sENBO0LRn5q+8nbTov4+1p"
+        crossorigin="anonymous"></script>
+    <script src="./js/index.js"></script>
+</body>
+
+</html>

@@ -1,0 +1,68 @@
+.container {
+    padding-top: 50px;
+}
+
+.content {
+    max-width: 80%;
+    margin: 0 auto;
+    background-color: #E1E2E1;
+    padding: 40px 100px;
+}
+
+.content .form-control {
+    display: inline;
+    width: 40%;
+}
+
+.content input.form-control {
+    background-color: transparent;
+    box-shadow: inset 2px 2px 6px 0 rgb(0 0 0 / 10%);
+    margin-right: 30px;
+
+}
+
+.content input.form-control::placeholder {
+    color: #212529;
+    opacity: 0.6;
+}
+
+.content button.btn-primary {
+    padding: 10px 40px;
+    border-radius: 50px;
+}
+
+.content p {
+    background-color: rgba(255, 193, 7, 0.5);
+    padding: 10px 10px;
+}
+
+.content .accordion-item h2 button {
+    font-size: 22px;
+    line-height: 22px;
+    font-weight: 300;
+}
+
+.content .accordion-item h2 button span {
+    display: inline-block;
+    width: 22px;
+    height: 22px;
+    background-color: rgba(0, 0, 0, 0.1);
+    text-align: center;
+    color: #fff;
+    margin-right: 5px;
+    border-radius: 5px;
+    font-size: 14px;
+}
+
+.homework-detail {
+    background-color: #f5f5f6;
+    padding: 10px 40px;
+    box-shadow: -6px -6px 7px 0 rgba(255, 255, 255, 0.5), 4px 4px 7px rgba(0, 0, 0, 0.1);
+    border: 0.5px solid rgba(70, 59, 59, 0.2);
+    border-radius: 10px;
+}
+
+.homework-detail span {
+    font-weight: 600;
+}
+
